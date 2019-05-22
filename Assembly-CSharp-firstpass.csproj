@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E66F564D-10E1-2C84-C652-D52002ECF0B9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\ControllerScripts\KeyBoardController.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\ControllerScripts\WiiController.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\ObjectScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\RayCastScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\RotateScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\ScaleScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\SelectieScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\SelectionGuiScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\SmoothCameraScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\StackScript.cs" />
+     <Compile Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Assets\Scripts\VerwijderScript.cs" />
+     <None Include="Assets\Plugins\Project 3DIVO Groep1\bin\keyboard_build_Data\Mono\etc\mono\mconfig\config.xml" />
+     <None Include="Assets\Plugins\Project 3DIVO Groep1\src\Unity-project\Library\FailedAssetImports.txt" />
+     <None Include="Assets\Plugins\Project 3DIVO Groep1\bin\keyboard_build_Data\output_log.txt" />
+     <None Include="Assets\Plugins\Project 3DIVO Groep1\bin\wiimote_build_Data\output_log.txt" />
+     <None Include="Assets\Plugins\Project 3DIVO Groep1\bin\wiimote_build_Data\Mono\etc\mono\mconfig\config.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Posix">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/Mono.Posix.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/Boo.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.VisualC">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/Microsoft.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Tds">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/Mono.Data.Tds.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/System.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Security">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/wiimote_build_Data/Managed/Mono.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/System.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>C:/Users/dell/Documents/Final_Year_Project/Assets/Plugins/Project 3DIVO Groep1/bin/keyboard_build_Data/Managed/System.Configuration.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
