@@ -1,6 +1,6 @@
-# Visual Richness of Environment VS Interaction Performance Experiment
+# VR Fidelity Experiment
 
-This repo contains codes and assets for the interactive simulation for the experiment. The simulation was paired with an Oculus Rift DK2.
+This repo contains codes and assets for the interactive simulation for the "Visual Richness of Environment VS Interaction Performance" experiment. The simulation was paired with an Oculus Rift DK2.
 
 ## Built With
 
